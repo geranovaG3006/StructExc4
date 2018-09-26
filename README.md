@@ -22,7 +22,6 @@ int main()
 	{
 		cout<<"Title=";
 		cin>>books[i].title;
-	    cin.get();
      cin.getline(books[i].title,40);
 		cout<<"Author=";
     cin.get();
