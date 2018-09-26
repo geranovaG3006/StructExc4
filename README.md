@@ -22,10 +22,12 @@ int main()
 	{
 		cout<<"Title=";
 		cin>>books[i].title;
+	    cin.get();
+     cin.getline(books[i].title,40);
 		cout<<"Author=";
     cin.get();
      cin.getline(books[i].author,40);
-		cin>>books[i].author;
+
 		cout<<"Price=";
 		cin>>books[i].price;
 		cout<<"ISBN=";
